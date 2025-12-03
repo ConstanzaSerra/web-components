@@ -5,7 +5,7 @@ export function headerComponent(el) {
   <header class="header">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="./index">
+          <a class="navbar-item" href="index.html">
            <img class="navbar-item__img" src="./images/mi-logo.svg" alt="Logo de llaves" />
 
           </a
