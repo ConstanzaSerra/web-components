@@ -1,0 +1,61 @@
+.footer {
+  background-color: #13171c;
+  padding: 20px 0;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row; /* horizontal en desktop */
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-menu li,
+.social-links li {
+  list-style: none; /* Quita los puntitos */
+  /* Opcional: para que el área clickeable sea más grande */
+  cursor: pointer;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-menu {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.footer-menu a:hover {
+  color: #00d1b2; /* color de hover Bulma */
+}
+
+.social-links {
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  flex-direction: row; /* horizontal en desktop */
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-menu {
+    flex-direction: column; /* vertical en mobile */
+    gap: 15px;
+  }
+}
