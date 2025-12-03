@@ -9,7 +9,7 @@ export function renderPortfolio(works) {
                     <span class="portfolio-card__description1">Mis </span>
                     <span class="portfolio-card__description2">trabajos</span>
                     </div>                  
-                    <img src = ../assets/maletin.png alt="maletin" class = "portfolio-card__maletin">`;
+                    <img src = ./assets/maletin.png alt="maletin" class = "portfolio-card__maletin">`;
 
   container.appendChild(titulo);
 
