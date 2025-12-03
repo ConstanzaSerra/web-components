@@ -1,0 +1,25 @@
+.portfolio-card {
+  width: 360px;
+  background-color: #393e4680;
+  padding: 42px 29px 42px 29px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .portfolio-card {
+    height: auto;
+    width: 324px;
+  }
+}
+
+.portfolio-card__img {
+  border-radius: 15px;
+}
+
+.portfolio-card__title {
+  font-size: 33px;
+  font-weight: 700;
+}

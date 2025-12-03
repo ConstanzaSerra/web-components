@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+/* Bienvenida */
+
+.bienvenida-container {
+  background-color: #13171c;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .bienvenida-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.bienvenida-card__texto {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .bienvenida-card__texto {
+    font-size: 96px;
+    display: block;
+  }
+}
+
+.bienvenida-card__title-principal {
+  color: aliceblue;
+}
+
+.bienvenida-card__title {
+  color: #00adb5;
+}
+
+.bienvenida-card__img {
+  max-width: 219px;
+  margin: 20px;
+}
+
+@media (min-width: 1024px) {
+  .bienvenida-card__img {
+    max-width: 353px;
+  }
+}
+
+/* Presentacion */
+
+.presentacion-container {
+  background-color: #192130;
+  padding: 40px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion-card, 
+.presentacion-card__texto {
+  display: flex;  
+  gap: 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .presentacion-card {
+    flex-direction: row;
+    max-width: 100vb;
+  }
+}
+
+.presentacion-card__title {
+  color: aliceblue;
+  font-size: 42px;
+}
+
+.presentacion-card__descripcion {
+  color: #eeeeeebf;
+}
+
+.presentacion-card__img {
+  max-width: 250px;
+  filter: grayscale(100%);
+}
